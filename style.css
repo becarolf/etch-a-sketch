@@ -2,6 +2,28 @@ body {
   justify-content: center;
 }
 
+button {
+  background-color: blanchedalmond;
+  color: #dd7973;
+  border: none;
+  border-radius: 10px;
+  min-height: 30px;
+  min-width: 100px;
+  margin: 30px;
+}
+
+button:hover {
+  background-color: #dd7973;
+  color: #fff;
+}
+
+button:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 3px #dd7973;
+  transition: 0.3s;
+}
+
 #container {
   border: 2px black solid;
   display: flex;
